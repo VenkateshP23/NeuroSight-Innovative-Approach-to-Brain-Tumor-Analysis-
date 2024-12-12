@@ -21,7 +21,18 @@ By utilizing pretrained models such as **InceptionV3**, **VGG16**, **ResNet101**
 ## 🧬 Dataset Structure
 The dataset is organized into training and testing folders, with subfolders for each tumor type:
 
-BrainTumor data/ ├── training/ │ ├── Pituitary/ │ ├── Glioma/ │ ├── Meningioma/ │ └── No Tumor/ └── testing/ ├── Pituitary/ ├── Glioma/ ├── Meningioma/ └── No Tumor/
+BrainTumor data/
+  ├── train/
+  │   ├── Pituitary/
+  │   ├── Glioma/
+  │   ├── Meningioma/
+  │   └── No Tumor/
+  └── test/
+      ├── Pituitary/
+      ├── Glioma/
+      ├── Meningioma/
+      └── No Tumor/
+
 
 
 > **Note:** Due to size constraints, the dataset is not included in this repository. Please refer to the [Usage Instructions](#usage-instructions) for dataset download and setup.
@@ -46,7 +57,7 @@ cd NeuroSight```
 ### 2️⃣ Install Dependencies
 **Install the required Python libraries from the requirements.txt file:**
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 ### 3️⃣ Add the Dataset
 Place the dataset in the data/ directory with the structure outlined above.
@@ -54,7 +65,7 @@ Place the dataset in the data/ directory with the structure outlined above.
 ### 4️⃣ Run the Notebook
 Launch the Jupyter Notebook and run the Capstone_project.ipynb:
 ```bash
-jupyter notebook Capstone_project.ipynb```
+jupyter notebook Capstone_project.ipynb
 
 ### 🌟 Future Enhancements
 - **Adding** real-time tumor classification using a web-based interface.
