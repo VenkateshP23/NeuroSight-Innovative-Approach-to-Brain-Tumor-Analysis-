@@ -51,13 +51,14 @@ BrainTumor data/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <this-repository>
+git clone https://github.com/VenkateshP23/NeuroSight-Innovative-Approach-to-Brain-Tumor-Analysis-.git
 cd NeuroSight
-
+```
 ### 2️⃣ Install Dependencies
 **Install the required Python libraries from the requirements.txt file:**
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3️⃣ Add the Dataset
 Place the dataset in the data/ directory with the structure outlined above.
@@ -66,6 +67,7 @@ Place the dataset in the data/ directory with the structure outlined above.
 Launch the Jupyter Notebook and run the Capstone_project.ipynb:
 ```bash
 jupyter notebook Capstone_project.ipynb
+```
 
 ### 🌟 Future Enhancements
 - **Adding** real-time tumor classification using a web-based interface.
