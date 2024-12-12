@@ -52,7 +52,7 @@ BrainTumor data/
 ### 1️⃣ Clone the Repository
 ```bash
 git clone <this-repository>
-cd NeuroSight```
+cd NeuroSight
 
 ### 2️⃣ Install Dependencies
 **Install the required Python libraries from the requirements.txt file:**
